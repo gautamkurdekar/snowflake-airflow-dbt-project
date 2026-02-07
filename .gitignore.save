@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Airflow
+airflow.db
+airflow.cfg
+logs/
+
+# OS
+.DS_Store

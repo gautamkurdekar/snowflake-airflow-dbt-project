@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: "Customer dimension with surrogate key"
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+
+      

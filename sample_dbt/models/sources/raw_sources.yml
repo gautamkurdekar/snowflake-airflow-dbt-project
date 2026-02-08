@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: SAMPLE_DB        # <-- Snowflake database
+    schema: SAMPLE_SCHEMA             # <-- Snowflake schema
+    tables:
+      - name: RAW_ORDERS       # <-- Snowflake TABLE
+

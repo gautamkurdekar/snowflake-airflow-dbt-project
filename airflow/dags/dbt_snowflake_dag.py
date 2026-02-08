@@ -2,7 +2,7 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from datetime import datetime
 
-DBT_PROJECT_DIR = "C:/snowflake-project/ops_dbt"
+DBT_PROJECT_DIR = "C:/snowflake-project/sample_dbt"
 DBT_EXECUTABLE = "C:/snowflake-project/venv/Scripts/dbt.exe"
 
 default_args = {

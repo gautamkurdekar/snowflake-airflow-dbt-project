@@ -1,8 +1,8 @@
-name: 'ops_dbt'
+name: 'sample_dbt'
 version: '1.0.0'
 config-version: 2
 
-profile: 'ops_dbt'
+profile: 'sample_dbt'
 
 model-paths: ["models"]
 analysis-paths: ["analysis"]
@@ -16,7 +16,7 @@ clean-targets:
   - "dbt_packages"
 
 models:
-  ops_dbt:
+  sample_dbt:
     staging:
       +materialized: view
     marts:
